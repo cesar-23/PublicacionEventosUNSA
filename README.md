@@ -40,5 +40,8 @@ class RepositoryBase(object):
         self.session().commit()
 showTable.py --- kick-forward
 =================
-Larger problem decomposed in functional abstractions. Functions, according to Mathematics, are relations from inputs to outputs.
+Each function takes an additional parameter, usually the last, which is another function
+    def normalize(str_data, func):
+        func(str_data.lower(), remove_stop_words)
+
 
