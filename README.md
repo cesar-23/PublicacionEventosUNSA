@@ -1,3 +1,12 @@
+Proyecto final IS 
+
+* César Carpio
+* Jhon Sanchez
+* Jheeremy Alvarez
+* Diego rivas
+
+
+
 
 controller.py --- restful
 =================
