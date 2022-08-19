@@ -41,6 +41,7 @@ class RepositoryBase(object):
 showTable.py --- kick-forward
 =================
 Each function takes an additional parameter, usually the last, which is another function
+
     def normalize(str_data, func):
         func(str_data.lower(), remove_stop_words)
 
