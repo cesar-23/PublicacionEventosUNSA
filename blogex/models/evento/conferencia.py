@@ -1,0 +1,2 @@
+class Conferencia(Evento):
+  
