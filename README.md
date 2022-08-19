@@ -1,6 +1,6 @@
 
 controller.py --- restful
-_________________________________
+=================
 
 REST is a style for network-based interactive applications that underlies the Web. The example here doesn't go over the network, but preserves the main contraints of REST, which are:
 * Interactive: end-to-end between an active agent (e.g. a person) and a backend
@@ -14,7 +14,7 @@ while True:
     request = render_and_get_input(state_representation, links)
 
 verify_user.py --- Monolithic
-______________________________
+=================
 
 No abstractions
 No use of library functions
