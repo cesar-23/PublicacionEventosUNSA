@@ -1,6 +1,6 @@
 
 controller.py --- restful
------------------------------
+_________________________________
 
 REST is a style for network-based interactive applications that underlies the Web. The example here doesn't go over the network, but preserves the main contraints of REST, which are:
 * Interactive: end-to-end between an active agent (e.g. a person) and a backend
@@ -13,11 +13,16 @@ while True:
     # "client"-side computation
     request = render_and_get_input(state_representation, links)
 
-view.html --- Cook Book
-=================
+verify_user.py --- Monolithic
+______________________________
 
-from jinja2 import Undefined
-from jinja2.filters import do_mark_safe
+No abstractions
+No use of library functions
+
+
+
+
+
 
 def linebreaksp(text):
     if text is None or isinstance(text, Undefined):
