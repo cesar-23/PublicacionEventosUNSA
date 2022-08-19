@@ -1,4 +1,4 @@
-ddd-flask-example
-=================
+aqui pongo algo
+describo los estilos q usare
+y ya?
 
-A terse example of DDD-inspired architecture using Flask and SQLAlchemy and MongoDB as storage options.
