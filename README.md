@@ -16,11 +16,11 @@ REST is a style for network-based interactive applications that underlies the We
 
 * Separation between Client (user interface) and Server (data storage)
 
-while True:
-    # "server"-side computation
-    state_representation, links = handle_request(*request)
-    # "client"-side computation
-    request = render_and_get_input(state_representation, links)
+    while True:
+        # "server"-side computation
+        state_representation, links = handle_request(*request)
+        # "client"-side computation
+         request = render_and_get_input(state_representation, links)
 
 verify_user.py --- Monolithic
 =================
