@@ -19,23 +19,6 @@ verify_user.py --- Monolithic
 No abstractions
 No use of library functions
 
-
-
-
-
-
-def linebreaksp(text):
-    if text is None or isinstance(text, Undefined):
-        return text 
-    text = "<p>" + text.replace('\n', '</p><p>') + "</p>"
-    return do_mark_safe(text)
-
-def register_filters(app):
-    app.jinja_env.filters['linebreaksp'] = linebreaksp
-
-orm_repository_base.py --- Monolithic
-=================
-
 class RepositoryBase(object):
     def _init_(self, db):
         self.db = db
@@ -46,3 +29,6 @@ class RepositoryBase(object):
     def create(self, item):
         self.session().add(item)
         self.session().commit()
+showTable.py --- pipeline
+=================
+arger problem decomposed in functional abstractions. Functions, according to Mathematics, are relations from inputs to outputs.
