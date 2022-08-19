@@ -31,4 +31,4 @@ class RepositoryBase(object):
         self.session().commit()
 showTable.py --- pipeline
 =================
-arger problem decomposed in functional abstractions. Functions, according to Mathematics, are relations from inputs to outputs.
+Larger problem decomposed in functional abstractions. Functions, according to Mathematics, are relations from inputs to outputs.
