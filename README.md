@@ -32,3 +32,4 @@ class RepositoryBase(object):
 showTable.py --- pipeline
 =================
 Larger problem decomposed in functional abstractions. Functions, according to Mathematics, are relations from inputs to outputs.
+
