@@ -2,11 +2,18 @@
 controller.py --- restful
 -----------------------------
 
-from blogex_app import Context
+REST is a style for network-based interactive applications that underlies the Web. The example here doesn't go over the network, but preserves the main contraints of REST, which are:
+* Interactive: end-to-end between an active agent (e.g. a person) and a backend
 
-if _name_ == "_main_": Context.setup()
+* Separation between Client (user interface) and Server (data storage)
 
-presentation.py --- Cook Book
+while True:
+    # "server"-side computation
+    state_representation, links = handle_request(*request)
+    # "client"-side computation
+    request = render_and_get_input(state_representation, links)
+
+view.html --- Cook Book
 =================
 
 from jinja2 import Undefined
