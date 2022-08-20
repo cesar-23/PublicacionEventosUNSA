@@ -4,6 +4,7 @@ Proyecto final IS
 * Jhon Sanchez
 * Jheeremy Alvarez
 * Diego rivas
+
 Practicas de programacion
 =====================
 Se plicaron practicas buenas como el no poner numeros magicos:
